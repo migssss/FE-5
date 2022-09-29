@@ -1,0 +1,247 @@
+/* general desktop default */
+  
+video { /*this is the code for the video background at the start opening my website*/
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 100%;
+    object-fit: cover;
+    position: absolute;
+    overflow: hidden;
+    mix-blend-mode: overlay;
+}
+  
+body {
+    position: relative;
+    background-image: linear-gradient(to bottom right, #353535, #3C6E71);
+    background-repeat: no-repeat;
+    background-size: initial;
+    top: 0; 
+    left: 0;
+    height: 100vh;
+    width: 100%; /* test */
+}
+  
+ul {  /* next three codes are just for my navigation bar. */
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: transparent;
+}
+      
+li {
+    float: left;
+}
+      
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+      
+  /* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
+}
+    
+.name {
+    font-size: 35px;
+    float: right;
+    margin: 50px 80px 50px 50px;
+    color: black;
+}
+
+h2 {
+    color: white;
+    margin: 200px 0 0 500px;
+}
+
+h4 {
+    color: white;
+    margin: 0px 550px 0 55px;
+}
+
+h6 {
+    color: white;
+    margin: 0px 750px 0 75px;
+}
+
+.max {
+    height: 600px;
+    width: 600px;
+    border: black 5px;
+    float: right;
+    margin: 50px 50px 0 0px ;
+    border-radius: 25%;
+}
+  
+p {
+    margin: 0 0 0 0px;
+}
+  
+.clearFloat {
+    position: absolute;
+    bottom: 0;
+}
+  
+.foot {
+    margin: 750px 0 0 0;
+    text-align: center;
+}
+
+@media(max-width: 1023px) { /* tablet styles */
+    body {
+        font-size: 20px;
+        position: relative;
+        background-image: linear-gradient(to bottom right, #353535, #3C6E71);
+        background-repeat: no-repeat;
+        background-size: initial;
+        top: 0; 
+        left: 0;
+        height: 100vh;
+        width: 100%;
+    }
+  
+    video { /*this is the code for the video background at the start opening my website*/
+        top: 0;
+        left: 0;
+        width: 100%;
+        min-height: 100%;
+        object-fit: cover;
+        position: absolute;
+        overflow: hidden;
+        mix-blend-mode: overlay;
+    }
+  
+    ul {  /* next three codes are just for my navigation bar. */
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #ebc999;
+    }
+      
+    li {
+        float: left;w
+    }
+      
+    li a {
+        display: none;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+      
+  /* Change the link color to #111 (black) on hover */
+    li a:hover {
+        background-color: #111;
+    }
+    
+    h2 {
+        font-size: 35px;
+        float: right;
+        margin: 50px 80px 50px 50px;
+    }
+
+    .max {
+        height: 300px;
+        width: 300px;
+        border: black 2px;
+        float: right;
+    }
+  
+    p {
+        margin: 0 0 0 500px;
+    }
+  
+    .clearFloat {
+        position: absolute;
+        bottom: 0;
+    }
+
+    .foot {
+        margin: 750px 0 0 0;
+        text-align: center;
+      }
+}
+
+@media (max-width: 560px) { /* mobile styles */
+    body {
+        font-size: 20px;
+        position: relative;
+        background-image: linear-gradient(to bottom right, #353535, #3C6E71);
+        background-repeat: no-repeat;
+        background-size: initial;
+        top: 0; 
+        left: 0;
+        height: 100vh;
+        width: 100%;
+    }
+  
+    video { /*this is the code for the video background at the start opening my website*/
+        top: 0;
+        left: 0;
+        width: 100%;
+        min-height: 100%;
+        object-fit: cover;
+        position: absolute;
+        overflow: hidden;
+        mix-blend-mode: overlay;
+    }
+  
+    ul {  /* next three codes are just for my navigation bar. */
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #ebc999;
+    }
+      
+    li {
+        float: left;w
+    }
+      
+    li a {
+        display: none;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+      
+  /* Change the link color to #111 (black) on hover */
+    li a:hover {
+        background-color: #111;
+    }
+    
+    h2 {
+        font-size: 35px;
+        float: right;
+        margin: 50px 80px 50px 50px;
+    }
+
+    .max {
+        height: 300px;
+        width: 300px;
+        border: black 2px;
+        float: right;
+    }
+  
+    p {
+        margin: 0 0 0 500px;
+    }
+  
+    .clearFloat {
+        position: absolute;
+        bottom: 0;
+    }
+
+    .foot {
+        margin: 750px 0 0 0;
+        text-align: center;
+      }
+}
