@@ -28,6 +28,7 @@ ul {  /* next three codes are just for my navigation bar. */
     padding: 0;
     overflow: hidden;
     background-color: transparent;
+    position: fixed;
 }
       
 li {
@@ -36,7 +37,7 @@ li {
       
 li a {
     display: block;
-    color: white;
+    color: #F5FEFD;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -44,29 +45,35 @@ li a {
       
   /* Change the link color to #111 (black) on hover */
 li a:hover {
-    background-color: #111;
+    background-color: transparent;
+    text-decoration: underline;
 }
     
 .name {
     font-size: 35px;
     float: right;
     margin: 50px 80px 50px 50px;
-    color: black;
+    color: #8B7271;
 }
 
-h2 {
-    color: white;
+.hi {
+    color: #8B7271;
+    font-size: 45px;
+    font-weight: lighter;
     margin: 200px 0 0 500px;
+    border: 1px solid black;
 }
 
 h4 {
-    color: white;
+    color: #F5FEFD;
     margin: 0px 550px 0 55px;
+    border: 1px solid black;
 }
 
 h6 {
-    color: white;
+    color: #F5FEFD;
     margin: 0px 750px 0 75px;
+    border: 1px solid black;
 }
 
 .max {
@@ -75,11 +82,12 @@ h6 {
     border: black 5px;
     float: right;
     margin: 50px 50px 0 0px ;
-    border-radius: 25%;
+    border-radius: 50%;
 }
   
 p {
     margin: 0 0 0 0px;
+    border: 1px solid black;
 }
   
 .clearFloat {
@@ -125,7 +133,7 @@ p {
     }
       
     li {
-        float: left;w
+        float: left;
     }
       
     li a {
