@@ -13,7 +13,7 @@ video { /*this is the code for the video background at the start opening my webs
   
 body {
     position: relative;
-    background-image: linear-gradient(to bottom right, #353535, #3C6E71);
+    background-image: linear-gradient(to bottom right, #353535, #003537);
     background-repeat: no-repeat;
     background-size: initial;
     top: 0; 
@@ -49,30 +49,34 @@ li a:hover {
     text-decoration: underline;
 }
     
-.name {
-    font-size: 35px;
-    float: right;
-    margin: 50px 80px 50px 50px;
-    color: #8B7271;
-}
-
-.hi {
-    color: #8B7271;
+.name { /* the h2 for MH */
     font-size: 45px;
+    float: right;
+    margin: 50px 450px 50px 580px;
+    color: #b0a79e;
+    border: 1px solid black;
+    position: inherit;
+}
+
+.hi { /* "Hi, I'm MH" */
+    color: #8B7271;
+    font-size: 65px;
     font-weight: lighter;
-    margin: 200px 0 0 500px;
+    margin: 200px 500px 0 350px;
     border: 1px solid black;
 }
 
-h4 {
+h4 { /* first intro on homepage */
     color: #F5FEFD;
-    margin: 0px 550px 0 55px;
+    font-size: 25px;
+    margin: 30px 550px 0 250px;
     border: 1px solid black;
 }
 
-h6 {
+h6 { /* second paragraph for homepage*/
     color: #F5FEFD;
-    margin: 0px 750px 0 75px;
+    font-size: 16px;
+    margin: 30px 750px 0 75px;
     border: 1px solid black;
 }
 
@@ -81,7 +85,7 @@ h6 {
     width: 600px;
     border: black 5px;
     float: right;
-    margin: 50px 50px 0 0px ;
+    margin: 50px 100px 300px 0px ;
     border-radius: 50%;
 }
   
@@ -112,69 +116,6 @@ p {
         height: 100vh;
         width: 100%;
     }
-  
-    video { /*this is the code for the video background at the start opening my website*/
-        top: 0;
-        left: 0;
-        width: 100%;
-        min-height: 100%;
-        object-fit: cover;
-        position: absolute;
-        overflow: hidden;
-        mix-blend-mode: overlay;
-    }
-  
-    ul {  /* next three codes are just for my navigation bar. */
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
-        overflow: hidden;
-        background-color: #ebc999;
-    }
-      
-    li {
-        float: left;
-    }
-      
-    li a {
-        display: none;
-        color: white;
-        text-align: center;
-        padding: 14px 16px;
-        text-decoration: none;
-    }
-      
-  /* Change the link color to #111 (black) on hover */
-    li a:hover {
-        background-color: #111;
-    }
-    
-    h2 {
-        font-size: 35px;
-        float: right;
-        margin: 50px 80px 50px 50px;
-    }
-
-    .max {
-        height: 300px;
-        width: 300px;
-        border: black 2px;
-        float: right;
-    }
-  
-    p {
-        margin: 0 0 0 500px;
-    }
-  
-    .clearFloat {
-        position: absolute;
-        bottom: 0;
-    }
-
-    .foot {
-        margin: 750px 0 0 0;
-        text-align: center;
-      }
 }
 
 @media (max-width: 560px) { /* mobile styles */
@@ -189,67 +130,4 @@ p {
         height: 100vh;
         width: 100%;
     }
-  
-    video { /*this is the code for the video background at the start opening my website*/
-        top: 0;
-        left: 0;
-        width: 100%;
-        min-height: 100%;
-        object-fit: cover;
-        position: absolute;
-        overflow: hidden;
-        mix-blend-mode: overlay;
-    }
-  
-    ul {  /* next three codes are just for my navigation bar. */
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
-        overflow: hidden;
-        background-color: #ebc999;
-    }
-      
-    li {
-        float: left;w
-    }
-      
-    li a {
-        display: none;
-        color: white;
-        text-align: center;
-        padding: 14px 16px;
-        text-decoration: none;
-    }
-      
-  /* Change the link color to #111 (black) on hover */
-    li a:hover {
-        background-color: #111;
-    }
-    
-    h2 {
-        font-size: 35px;
-        float: right;
-        margin: 50px 80px 50px 50px;
-    }
-
-    .max {
-        height: 300px;
-        width: 300px;
-        border: black 2px;
-        float: right;
-    }
-  
-    p {
-        margin: 0 0 0 500px;
-    }
-  
-    .clearFloat {
-        position: absolute;
-        bottom: 0;
-    }
-
-    .foot {
-        margin: 750px 0 0 0;
-        text-align: center;
-      }
 }
