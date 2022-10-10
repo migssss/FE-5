@@ -1,43 +1,95 @@
-/* general desktop default */
-  
-video { /*this is the code for the video background at the start opening my website*/
-    top: 0;
-    left: 0;
-    width: 100%;
-    min-height: 100%;
-    object-fit: cover;
-    position: relative;
-    overflow: hidden;
-    mix-blend-mode: overlay;
-}
-  
-body {
-    position: relative;
-    background-image: linear-gradient(to bottom right, #353535, #003537);
-    background-repeat: no-repeat;
-    background-size: initial;
-    top: 0; 
-    left: 0;
-    height: 100vh;
-    width: 100%; 
+/* mobile styles */
+
+* {
+    margin: 0;
+    padding: 0;
 }
 
-.navcontainer {
-    width: 100%;
-    text-align: center;
+@media (max-width: 560px) { 
+    body {
+        font-size: 20px;
+        position: relative;
+        background-image: linear-gradient(to bottom right, #353535, #3C6E71);
+        background-repeat: no-repeat;
+        background-size: initial;
+        top: 0; 
+        left: 0;
+        height: 100vh;
+        width: 100%;
+    }
 }
-  
+
+/* tablet styles */
+
+@media(max-width: 1023px) { 
+    body {
+        font-size: 20px;
+        position: relative;
+        background-image: linear-gradient(to bottom right, #353535, #3C6E71);
+        background-repeat: no-repeat;
+        background-size: initial;
+        top: 0; 
+        left: 0;
+        height: 100vh;
+        width: 100%;
+    }
+}
+
+/* desktop style */
+
+body {
+    height: 100vh;
+    width: 100%; 
+    font-family: "Spectral SC", sans-serif;
+}
+
+.firstpara { /* set of paragraphs in the 'more of me' tab */
+    display: inline-block;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.hi { /* "Hi, I'm MH" */
+    color: #8B7271;
+    font-size: 65px;
+    font-weight: lighter;
+  /*  margin: 200px 500px 0 350px;  */
+    border: 1px solid black;
+}
+
+h4 { /* first intro on homepage */
+    color: #F5FEFD;
+    font-size: 25px;
+ /*   margin: 30px 550px 0 250px; */
+    border: 1px solid black;
+}
+
+h6 { /* second paragraph for homepage*/
+    color: #F5FEFD;
+    font-size: 16px;
+ /*   margin: 30px 750px 0 75px; */
+    border: 1px solid black;
+}
+
+.video-container {
+    position: fixed;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    overflow: hidden;
+}
+
 ul {  /* next three codes are just for my navigation bar. */
     list-style-type: none;
     margin: auto;
-    padding: 0;
+    margin-top: 15%;
     overflow: hidden;
     background-color: transparent;
     text-align: center;
     position: relative;
     display: inline-block;
     border: 1px solid black;
-    
 }
       
 li {
@@ -53,19 +105,26 @@ li a {
     padding: 14px 16px;
     text-decoration: none;
 }
-      
-  /* Change the link color to #111 (black) on hover */
+
+.navcontainer {
+    width: 25%;
+    text-align: center;
+    border: 1px black solid;
+    margin: auto;
+}
+
+/* Change the link color to #111 (black) on hover */
+
 li a:hover {
-    background-color: transparent;
     text-decoration: underline;
 }
-    
+
 .name { /* the h2 for MH */
-    font-size: 45px;
-    float: right;
-    margin: 50px 450px 50px 580px;
+    font-size: 65px;
+    float: left;
+    margin: 50px 580px 50px 450px;
     border: 1px solid black;
-    position: inherit;
+    position: relative;
     color: #b0a79e;
 }
 
@@ -74,43 +133,13 @@ li a:hover {
     color: #b0a79e;
 }
 
-.maxxy {
-    display: inline-block;
+.maincont {
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 1200px;
+    height: 600px;
     margin: auto;
-}
-
-.letme {
-    display: inline-block;
-    margin: auto;
-    margin-bottom: 100px;
-    border: 1px solid black;
-}
-
-.firstpara {
-    display: inline-block;
-    margin: auto;
-    margin-top: 100px;
-}
-
-.hi { /* "Hi, I'm MH" */
-    color: #8B7271;
-    font-size: 65px;
-    font-weight: lighter;
-    margin: 200px 500px 0 350px;
-    border: 1px solid black;
-}
-
-h4 { /* first intro on homepage */
-    color: #F5FEFD;
-    font-size: 25px;
-    margin: 30px 550px 0 250px;
-    border: 1px solid black;
-}
-
-h6 { /* second paragraph for homepage*/
-    color: #F5FEFD;
-    font-size: 16px;
-    margin: 30px 750px 0 75px;
     border: 1px solid black;
 }
 
@@ -120,12 +149,8 @@ h6 { /* second paragraph for homepage*/
     border: black 5px;
     float: right;
     margin: 50px 100px 300px 0px ;
-    border-radius: 50%;
-}
-  
-p {
-    margin: 0 0 0 0px;
-    border: 1px solid black;
+    border-radius: 60%;
+    z-index: 2;
 }
 
 form {
@@ -133,40 +158,7 @@ form {
     text-align: center;
 }
   
-.clearFloat {
-    position: absolute;
-    bottom: 0;
-}
-  
 .foot {
     margin: 750px 0 0 0;
     text-align: center;
-}
-
-@media(max-width: 1023px) { /* tablet styles */
-    body {
-        font-size: 20px;
-        position: relative;
-        background-image: linear-gradient(to bottom right, #353535, #3C6E71);
-        background-repeat: no-repeat;
-        background-size: initial;
-        top: 0; 
-        left: 0;
-        height: 100vh;
-        width: 100%;
-    }
-}
-
-@media (max-width: 560px) { /* mobile styles */
-    body {
-        font-size: 20px;
-        position: relative;
-        background-image: linear-gradient(to bottom right, #353535, #3C6E71);
-        background-repeat: no-repeat;
-        background-size: initial;
-        top: 0; 
-        left: 0;
-        height: 100vh;
-        width: 100%;
-    }
 }
