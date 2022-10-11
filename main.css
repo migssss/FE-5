@@ -53,21 +53,21 @@ body {
     color: #8B7271;
     font-size: 65px;
     font-weight: lighter;
-  /*  margin: 200px 500px 0 350px;  */
+    color: #7bedb6;
     border: 1px solid black;
 }
 
 h4 { /* first intro on homepage */
-    color: #F5FEFD;
+    color: #58e8a3;
     font-size: 25px;
- /*   margin: 30px 550px 0 250px; */
+    margin: 25px 100px 0 0px;
     border: 1px solid black;
 }
 
 h6 { /* second paragraph for homepage*/
-    color: #F5FEFD;
+    color: #7bedb6;
     font-size: 16px;
- /*   margin: 30px 750px 0 75px; */
+    margin: 25px 0 0 0; 
     border: 1px solid black;
 }
 
@@ -83,7 +83,6 @@ h6 { /* second paragraph for homepage*/
 ul {  /* next three codes are just for my navigation bar. */
     list-style-type: none;
     margin: auto;
-    margin-top: 15%;
     overflow: hidden;
     background-color: transparent;
     text-align: center;
@@ -94,16 +93,19 @@ ul {  /* next three codes are just for my navigation bar. */
       
 li {
     float: left;
-    margin: auto;
+    text-align: center;
     position: relative;
+    font-size: 20px;
+    margin-top: 65px;
 }
       
 li a {
     display: inline-block;
-    color: #F5FEFD;
+    color: #39e491;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    font-weight: bold;
 }
 
 .navcontainer {
@@ -113,44 +115,43 @@ li a {
     margin: auto;
 }
 
-/* Change the link color to #111 (black) on hover */
+/* Change the link color to #111 on hover */
 
 li a:hover {
     text-decoration: underline;
 }
 
 .name { /* the h2 for MH */
-    font-size: 65px;
+    font-size: 85px;
     float: left;
-    margin: 50px 580px 50px 450px;
+    margin: 50px 400px 0px 450px;
     border: 1px solid black;
     position: relative;
-    color: #b0a79e;
 }
 
 .name a:visited { /* h2 link back home */
     text-decoration: none;
-    color: #b0a79e;
+    font-weight: bold;
+    color: #7bedb6;
 }
 
-.maincont {
+.maincont { /* contains h2, h4, h6 in index */
     flex-direction: column;
     flex-wrap: wrap;
-    justify-content: space-around;
     width: 1200px;
     height: 600px;
-    margin: auto;
+    margin: 125px 0px 0px 260px;
     border: 1px solid black;
+    position: relative;
 }
 
-.max {
+.max { /*  */
     height: 600px;
     width: 600px;
     border: black 5px;
     float: right;
-    margin: 50px 100px 300px 0px ;
+    margin: -550px 100px 300px 0px ;
     border-radius: 60%;
-    z-index: 2;
 }
 
 form {
