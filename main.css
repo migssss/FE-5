@@ -47,6 +47,31 @@ body {
 .firstpara { /* set of paragraphs in the 'more of me' tab */
     display: inline-block;
     margin: auto;
+    color: white;
+    font-size: 20px;
+    border-radius: 85%;
+}
+
+.secondpara {
+    display: inline-block;
+    margin: auto;
+    color: white;
+}
+
+.thirdpets {
+    display: inline-block;
+    margin: auto;
+    color: white;
+}
+
+.lastme {
+    display: inline-block;
+    margin: auto;
+    color: white;
+}
+
+.socialmedia {
+    grid-row: auto;
     margin-top: 100px;
 }
 
@@ -55,21 +80,18 @@ body {
     font-size: 65px;
     font-weight: lighter;
     color: #7bedb6;
-    border: 1px solid black;
 }
 
 h4 { /* first intro on homepage */
-    color: #58e8a3;
+    color: white;
     font-size: 25px;
     margin: 25px 100px 0 0px;
-    border: 1px solid black;
 }
 
 h6 { /* second paragraph for homepage*/
-    color: #7bedb6;
+    color: white;
     font-size: 16px;
     margin: 25px 0 0 0; 
-    border: 1px solid black;
 }
 
 .video-container {
@@ -89,7 +111,6 @@ ul {  /* next three codes are just for my navigation bar. */
     text-align: center;
     position: relative;
     display: inline-block;
-    border: 1px solid black;
 }
       
 li {
@@ -102,7 +123,7 @@ li {
       
 li a {
     display: inline-block;
-    color: #39e491;
+    color: white
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -112,7 +133,6 @@ li a {
 .navcontainer {
     width: 25%;
     text-align: center;
-    border: 1px black solid;
     margin: auto;
 }
 
@@ -126,7 +146,6 @@ li a:hover {
     font-size: 85px;
     float: left;
     margin: 50px 400px 0px 450px;
-    border: 1px solid black;
     position: relative;
 }
 
@@ -142,7 +161,6 @@ li a:hover {
     width: 1200px;
     height: 600px;
     margin: 125px 0px 0px 260px;
-    border: 1px solid black;
     position: relative;
 }
 
@@ -154,14 +172,21 @@ li a:hover {
     margin: -550px 100px 300px 0px ;
 }
 
-form {
-    margin: auto;
+.form {
+    margin-top: 150px;
     text-align: center;
+}
+
+.footer3 {
+    margin-top: 450px;
+    margin-right: 400px;
 }
   
 .foot {
     margin: 400px 0 100px 0;
     text-align: center;
+    color: white;
+    font-size: 22px;
 }
 
 /* FOR 'MORE OF ME' webpage styling  . . ..  . . . . . . . . . . . . . . . . . . . . */
@@ -230,7 +255,7 @@ form {
   /* Six columns side by side */
 .column {
     float: left;
-    width: 16.66%;
+    width: 15%;
 }
 
 /* Add a transparency effect for thumnbail images */
@@ -275,41 +300,6 @@ form {
     text-align: center;
 }
 /* . . . . . ... . . . . . . . . . . . . . . . . . . */
-
-/* 404 ERROR . . . . .. . .. . . ..  .  */
-
-.errorbody {
-    background-color: #464343;
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.center {
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translateX(-50%) translateY(-50%); 
-}
-
-.square-large {
-    width: 200px;
-    height: 300px;
-    border: 2px solid #bfbfbf;
-    position: relative;
-}
-
-.line {
-    width: 0;
-    height: 16px;
-    float: left;
-    border: none;
-    background: #ffffff;
-    position: absolute;
-    top: 50%;
-    left: 20px;
-    right: auto;
-}
 
 /* BUTTON STYLE . . .. . . . . . . . . . . . . . . . . . . .  */
 
@@ -596,3 +586,4 @@ form {
     position: absolute;
     width: 100%;
 }
+
